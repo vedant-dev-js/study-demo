@@ -46,7 +46,7 @@ const VideoComponent = () => {
           Your browser does not support the video tag.
         </video>
       </Box>
-      <CenteredText text="Your Centered Text Here" />
+      <CenteredText text="Optimize Queries, Master DSA" />
     </Box>
   );
 };

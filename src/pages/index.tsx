@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 import DrawerAppBar from "@/components/Navbar";
 import BigTextComponent from "@/components/BigTextComponent";
 import VideoComponent from "@/components/VideoComponent";
-import ImageParagraphComponent from "@/components/ImageParagraphComponent";
 
 const Home = (props: { window?: () => Window }) => {
   useEffect(() => {
@@ -20,7 +19,7 @@ const Home = (props: { window?: () => Window }) => {
       <Box overflow={"hidden"}>
         <VideoComponent />
       </Box>
-      <ImageParagraphComponent />
+     
     </Layout>
   );
 };
